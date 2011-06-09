@@ -1,0 +1,8 @@
+#!/bin/bash
+pushd /home/novoj/Prototypes/groovyScripts/src > /dev/null
+for x in `ls /home/novoj/Prototypes/groovyScripts/lib/*.jar` 
+do
+libpath=$x:$libpath
+done
+/opt/GroovyServer/bin/groovyclient -DtomcatDir=/opt/Apache/Tomcat_#tomcatVersion# -DtomcatDefaultVersion=6.0 -cp $libpath cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy $@
+popd > /dev/null
