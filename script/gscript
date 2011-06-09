@@ -1,6 +1,6 @@
 #!/bin/bash
-pushd /home/novoj/Prototypes/groovyScripts/src > /dev/null
-for x in `ls /home/novoj/Prototypes/groovyScripts/lib/*.jar` 
+pushd /home/novoj/Prototypes/Groovy-Dev-Scripts/src > /dev/null
+for x in `ls /home/novoj/Prototypes/Groovy-Dev-Scripts/lib/*.jar`
 do
 libpath=$x:$libpath
 done

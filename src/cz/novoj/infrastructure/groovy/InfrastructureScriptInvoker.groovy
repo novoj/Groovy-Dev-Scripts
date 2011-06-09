@@ -55,7 +55,7 @@ class InfrastructureScriptInvoker {
 			String arguments = "";
 			wrapper.propertyDescriptors.each {
 				if (it.name != "class" && it.name != "metaClass" && it.writeMethod != null) {
-					arguments += it.name + ", "
+					arguments += it.name + " [${wrapper.getPropertyValue(it.name)}], "
 				}
 			}
 			println "${k}: " + v + " arguments: " + arguments.substring(0, arguments.length() - 2)

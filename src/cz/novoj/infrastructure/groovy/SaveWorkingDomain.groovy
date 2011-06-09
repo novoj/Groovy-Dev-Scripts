@@ -14,8 +14,7 @@ class SaveWorkingDomain extends AbstractTomcatCommand {
 	private static final Pattern NAME_GUESS = Pattern.compile(/.+\/(.+?)\/?/)
 	String name
 
-	void execute() {
-		println "Using Tomcat: ${tomcatDir}"
+	String getName() {
 		File tomcatCfg = new File("${tomcatDir}/conf/server.xml")
 		if (name == null) {
 			String cfgContents = tomcatCfg.getText("utf-8")
@@ -25,10 +24,16 @@ class SaveWorkingDomain extends AbstractTomcatCommand {
 				name = matcher.group(1)
 			}
 		}
+		return name
+	}
+
+	void execute() {
+		println "Using Tomcat: ${tomcatDir}"
+		File tomcatCfg = new File("${tomcatDir}/conf/server.xml")
 		File targetFile = new File("${tomcatDir}/conf/backup/server-${name}.xml")
 		FileUtils.copyFile(
 			tomcatCfg,
-				targetFile
+			targetFile
 		)
 		println "Saved file: ${targetFile.absolutePath}"
 	}
