@@ -30,7 +30,7 @@ class SaveWorkingDomain extends AbstractTomcatCommand {
 	void execute() {
 		println "Using Tomcat: ${tomcatDir}"
 		File tomcatCfg = new File("${tomcatDir}/conf/server.xml")
-		File targetFile = new File("${tomcatDir}/conf/backup/server-${name}.xml")
+		File targetFile = new File("${tomcatDir}/conf/backup/server-${getName()}.xml")
 		FileUtils.copyFile(
 			tomcatCfg,
 			targetFile
