@@ -1,8 +1,10 @@
 #!/bin/bash
-pushd /home/novoj/Prototypes/Groovy-Dev-Scripts/src > /dev/null
-for x in `ls /home/novoj/Prototypes/Groovy-Dev-Scripts/lib/*.jar`
+CURRENT_DIR=$(pwd)
+JAVA_OPTS="-DtomcatDir=/opt/Apache/Tomcat_#tomcatVersion# -DtomcatDefaultVersion=6.0"
+pushd $GSCRIPT_HOME/src > /dev/null
+for x in `ls $GSCRIPT_HOME/lib/*.jar`
 do
 libpath=$x:$libpath
 done
-/opt/GroovyServer/bin/groovyclient -DtomcatDir=/opt/Apache/Tomcat_#tomcatVersion# -DtomcatDefaultVersion=6.0 -cp $libpath cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy $@
+groovyclient -DcurrentDir=$CURRENT_DIR $JAVA_OPTS -cp $libpath cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy $@
 popd > /dev/null

@@ -20,6 +20,7 @@ class InfrastructureScriptInvoker {
 		registerCommand(PrintWorkingDomain.class)
 		registerCommand(SaveWorkingDomain.class)
 		registerCommand(RestoreDomain.class)
+		registerCommand(EncodingConversion.class)
 	}
 
 	private static void registerCommand(Class command) {

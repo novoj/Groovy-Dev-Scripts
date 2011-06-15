@@ -1,1 +1,11 @@
-Set of Groovy scripts supporting Java development.
+Set of Groovy scripts supporting Java development. Please check the original post at
+
+http://blog.novoj.net/2011/06/16/groovy-namisto-shell-skriptu/
+
+Steps necessary to run this script:
+
+1) install Groovy (http://groovy.codehaus.org)
+2) [OPTIONAL BUT RECOMMENDED] install GroovyServ (http://kobo.github.com/groovyserv)
+3) create new GSCRIPT_HOME variable pointing to gscript
+4) add gscript to your PATH environment variable
+5) run "gscript"
