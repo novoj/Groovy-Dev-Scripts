@@ -21,6 +21,7 @@ class InfrastructureScriptInvoker {
 		registerCommand(SaveWorkingDomain.class)
 		registerCommand(RestoreDomain.class)
 		registerCommand(EncodingConversion.class)
+		registerCommand(RemoveBOM.class)
 	}
 
 	private static void registerCommand(Class command) {

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b507562-04c5-4682-b7fd-2eb78254a626" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/gscript" afterPath="$PROJECT_DIR$/script/gscript" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy" afterPath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy" />
-    </list>
+    <list default="true" id="6b507562-04c5-4682-b7fd-2eb78254a626" name="Default" comment="" />
     <ignored path="groovyScripts.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,10 +59,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InfrastructureScriptInvoker.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="InfrastructureScriptInvoker.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
+            <state line="45" column="32" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.51184833">
               <folding />
             </state>
           </provider>
@@ -84,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gscript" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gscript" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/gscript">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="26" selection-end="26" vertical-scroll-proportion="0.021003501">
+            <state line="1" column="14" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +98,7 @@
       <file leaf-file-name="EncodingConversion.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+            <state line="49" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,7 +107,7 @@
       <file leaf-file-name="RemoveBOM.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="44" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,10 +135,11 @@
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RestoreDomain.groovy" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/SaveWorkingDomain.groovy" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy" />
-        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy" />
-        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy" />
         <option value="$PROJECT_DIR$/script/gscript" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractBatchCommand.groovy" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy" />
       </list>
     </option>
   </component>
@@ -442,7 +436,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction for getting the name (calling getter)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Encoding conversion and BOM removal added. Tweaked shell script." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -457,6 +451,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial revision." />
     <MESSAGE value="Correction for getting the name (calling getter)." />
+    <MESSAGE value="Encoding conversion and BOM removal added. Tweaked shell script." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -511,30 +506,37 @@
         <state line="39" column="0" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy">
+    <entry file="file://$PROJECT_DIR$/script/gscript">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
+        <state line="1" column="14" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy">
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractBatchCommand.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+        <state line="8" column="35" selection-start="205" selection-end="225" vertical-scroll-proportion="0.16802801">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="44" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/gscript">
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="26" selection-end="26" vertical-scroll-proportion="0.021003501">
+        <state line="49" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="32" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.51184833">
           <folding />
         </state>
       </provider>
