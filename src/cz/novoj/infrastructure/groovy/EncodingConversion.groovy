@@ -17,7 +17,7 @@ class EncodingConversion extends AbstractBatchCommand {
 		File sourceDirectoryFile = new File(sourceDirectory);
 		int sourceDirectoryIndex = sourceDirectoryFile.absolutePath.length();
 		Iterator it = FileUtils.iterateFiles(
-				new File(this.sourceDirectory),
+				sourceDirectoryFile,
 				extensions,
 				true
 		);

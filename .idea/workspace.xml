@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b507562-04c5-4682-b7fd-2eb78254a626" name="Default" comment="" />
+    <list default="true" id="6b507562-04c5-4682-b7fd-2eb78254a626" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy" afterPath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy" />
+    </list>
     <ignored path="groovyScripts.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +66,7 @@
       <file leaf-file-name="InfrastructureScriptInvoker.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="32" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.51184833">
+            <state line="117" column="62" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.8933649">
               <folding />
             </state>
           </provider>
@@ -98,7 +102,7 @@
       <file leaf-file-name="EncodingConversion.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,8 +142,9 @@
         <option value="$PROJECT_DIR$/script/gscript" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractBatchCommand.groovy" />
-        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy" />
+        <option value="$PROJECT_DIR$/script/test.txt" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy" />
       </list>
     </option>
   </component>
@@ -394,13 +399,13 @@
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39795917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3970588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19044703" sideWeight="0.6020408" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19044703" sideWeight="0.60294116" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -529,14 +534,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="32" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.51184833">
+        <state line="117" column="62" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.8933649">
           <folding />
         </state>
       </provider>
