@@ -21,6 +21,8 @@ class RestoreDomain extends AbstractTomcatCommand {
 				targetFile
 			)
 			println "Restored file: ${sourceFile.absolutePath}"
+			FileUtils.deleteDirectory(new File("${tomcatDir}/work/Catalina"))
+			println "Deleted work directory: ${tomcatDir}/work/Catalina"
 		}
 	}
 
