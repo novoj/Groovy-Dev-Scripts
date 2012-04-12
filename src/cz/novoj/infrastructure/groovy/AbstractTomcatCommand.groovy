@@ -33,6 +33,10 @@ abstract class AbstractTomcatCommand implements Command {
 	}
 
 	String getTomcatDir() {
+		return getTomcatDir(tomcatVersion)
+	}
+
+	String getTomcatDir(String tomcatVersion) {
 		return TOMCAT_DIR.replace('#tomcatVersion#', tomcatVersion)
 	}
 

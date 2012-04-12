@@ -22,6 +22,8 @@ class InfrastructureScriptInvoker {
 		registerCommand(RestoreDomain.class)
 		registerCommand(EncodingConversion.class)
 		registerCommand(RemoveBOM.class)
+		registerCommand(RunTomcat.class)
+		registerCommand(TableNameCaseChange.class)
 	}
 
 	private static void registerCommand(Class command) {
@@ -99,7 +101,7 @@ class InfrastructureScriptInvoker {
 	}
 
 	private static int getParameters(Command command, BeanWrapper commandWrapper, Map<String, String> params, String argument, int namelessArgs) {
-		String[] argItems = argument.split(",:")
+		String[] argItems = argument.split("[,:]")
 		argItems.each {
 			String[] argTuple = it.split("=")
 			if (argTuple.length == 2) {

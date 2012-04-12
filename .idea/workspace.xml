@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b507562-04c5-4682-b7fd-2eb78254a626" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RunTomcat.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/TableNameCaseChange.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RestoreDomain.groovy" afterPath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RestoreDomain.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/groovyScripts.iml" afterPath="$PROJECT_DIR$/groovyScripts.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractTomcatCommand.groovy" afterPath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractTomcatCommand.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy" afterPath="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy" />
     </list>
     <ignored path="groovyScripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +22,6 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-    <option name="REVERSE_PATCH" value="false" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -63,19 +67,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RestoreDomain.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RestoreDomain.groovy">
+      <file leaf-file-name="EncodingConversion.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="37" selection-start="599" selection-end="599" vertical-scroll-proportion="0.39879155">
+            <state line="36" column="47" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractTomcatCommand.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractTomcatCommand.groovy">
+      <file leaf-file-name="TableNameCaseChange.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/TableNameCaseChange.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="15" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+            <state line="19" column="31" selection-start="604" selection-end="604" vertical-scroll-proportion="0.40425533">
               <folding />
             </state>
           </provider>
@@ -89,8 +93,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
-    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -98,23 +101,30 @@
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/Command.groovy" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/SampleDataProvider.java" />
         <option value="$PROJECT_DIR$/src/SampleScript.groovy" />
-        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractTomcatCommand.groovy" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/SaveWorkingDomain.groovy" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/script/gscript" />
-        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractBatchCommand.groovy" />
-        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy" />
         <option value="$PROJECT_DIR$/script/test.txt" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/PrintWorkingDomain.groovy" />
         <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RestoreDomain.groovy" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractTomcatCommand.groovy" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RunTomcat.groovy" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy" />
+        <option value="$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/TableNameCaseChange.groovy" />
       </list>
     </option>
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="30" />
+    <option name="width" value="1680" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -142,6 +152,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,9 +222,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Favorites" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +296,7 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" />
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -285,7 +317,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" />
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -355,30 +387,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="24" width="1600" height="1152" extended-state="0" />
+    <frame x="0" y="30" width="1680" height="996" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3970588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39637598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946485" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25735295" sideWeight="0.603624" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -404,8 +443,17 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encoding conversion and BOM removal added. Tweaked shell script." />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleting work dir." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -421,6 +469,7 @@
     <MESSAGE value="Initial revision." />
     <MESSAGE value="Correction for getting the name (calling getter)." />
     <MESSAGE value="Encoding conversion and BOM removal added. Tweaked shell script." />
+    <MESSAGE value="Deleting work dir." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -430,11 +479,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/Command.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="211" selection-end="211" vertical-scroll-proportion="0.35714287" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-beans-3.0.5.RELEASE.jar!/org/springframework/beans/BeanWrapperImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="11" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.34355828" />
@@ -455,55 +499,68 @@
         <state line="8" column="26" selection-start="333" selection-end="345" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/SaveWorkingDomain.groovy">
+    <entry file="file://$PROJECT_DIR$/script/gscript">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" />
+        <state line="1" column="14" selection-start="26" selection-end="26" vertical-scroll-proportion="0.018126888" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RunTomcat.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="155" selection-end="155" vertical-scroll-proportion="0.12616822" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractBatchCommand.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="205" selection-end="225" vertical-scroll-proportion="0.16802801" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="62" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.8933649" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/gscript">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="26" selection-end="26" vertical-scroll-proportion="0.018126888">
-          <folding />
-        </state>
+        <state line="8" column="15" selection-start="205" selection-end="205" vertical-scroll-proportion="0.14457831" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/PrintWorkingDomain.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="244" selection-end="244" vertical-scroll-proportion="0.1610338">
-          <folding />
-        </state>
+        <state line="7" column="38" selection-start="186" selection-end="186" vertical-scroll-proportion="0.12650603" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RestoreDomain.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="599" selection-end="599" vertical-scroll-proportion="0.39879155">
-          <folding />
-        </state>
+        <state line="11" column="11" selection-start="287" selection-end="287" vertical-scroll-proportion="0.20142421" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/SaveWorkingDomain.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.6686747" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/Command.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="210" selection-end="210" vertical-scroll-proportion="0.18072289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/AbstractTomcatCommand.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="15" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+        <state line="17" column="43" selection-start="541" selection-end="541" vertical-scroll-proportion="0.30722892" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/RemoveBOM.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="52" selection-start="1636" selection-end="1674" vertical-scroll-proportion="0.88554215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/InfrastructureScriptInvoker.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="672" selection-end="672" vertical-scroll-proportion="0.021608643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/EncodingConversion.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="47" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/novoj/infrastructure/groovy/TableNameCaseChange.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="604" selection-end="604" vertical-scroll-proportion="0.40425533">
           <folding />
         </state>
       </provider>
