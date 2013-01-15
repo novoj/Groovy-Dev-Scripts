@@ -92,7 +92,11 @@ class InfrastructureScriptInvoker {
 					println "Error setting property: ${ex.localizedMessage}"
 					println "Avalable command properties: " + wrapper.propertyDescriptors.each { it + ", " }
 				}
-				command.execute()
+                try {
+				    command.execute()
+                } catch (Exception ex) {
+                    ex.printStackTrace()
+                }
 			} else {
 				println "Command with name ${args[0]} was not found"
 				printHelp()

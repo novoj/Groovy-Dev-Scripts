@@ -23,6 +23,8 @@ class RestoreDomain extends AbstractTomcatCommand {
 			println "Restored file: ${sourceFile.absolutePath}"
 			FileUtils.deleteDirectory(new File("${tomcatDir}/work/Catalina"))
 			println "Deleted work directory: ${tomcatDir}/work/Catalina"
+            FileUtils.deleteDirectory(new File("${tomcatDir}/temp"))
+            println "Deleted work directory: ${tomcatDir}/temp"
 		}
 	}
 
@@ -38,7 +40,7 @@ class RestoreDomain extends AbstractTomcatCommand {
 				String coreFileName = fileName.substring("server-".length(), fileName.size() - 4)
 
 				int similarity = coreFileName.chars.toList().intersect(lookUpName.chars.toList()).size()
-				int nameMatchValue = 0
+				int nameMatchValue
 
 				if (coreFileName == lookUpName) {
 					recognizedFile = it
