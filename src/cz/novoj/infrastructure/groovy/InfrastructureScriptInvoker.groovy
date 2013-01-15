@@ -24,6 +24,7 @@ class InfrastructureScriptInvoker {
 		registerCommand(RemoveBOM.class)
 		registerCommand(RunTomcat.class)
 		registerCommand(TableNameCaseChange.class)
+		registerCommand(RegExCopy.class)
 	}
 
 	private static void registerCommand(Class command) {
