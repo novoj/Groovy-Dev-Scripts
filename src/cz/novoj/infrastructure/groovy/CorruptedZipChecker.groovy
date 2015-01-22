@@ -35,10 +35,10 @@ class CorruptedZipChecker implements Command {
 			File file = (File)it.next();
 
 			if (isValid(file)) {
-				println("OK: " + file.absolutePath.substring(sourceDirectoryFile.absolutePath.length()) + 1);
+				println("OK: " + file.absolutePath.substring(sourceDirectoryFile.absolutePath.length() + 1));
 				oks++
 			} else {
-				println("ERROR: " + file.absolutePath.substring(sourceDirectoryFile.absolutePath.length()) + 1);
+				println("ERROR: " + file.absolutePath.substring(sourceDirectoryFile.absolutePath.length() + 1));
 				errors++
 			}
 
