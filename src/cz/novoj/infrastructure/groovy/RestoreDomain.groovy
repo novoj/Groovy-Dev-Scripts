@@ -33,7 +33,7 @@ class RestoreDomain extends AbstractTomcatCommand {
 		File recognizedFile = null;
 		int recognizedFileMatchValue = 0;
 		Collection<File> files = FileUtils.listFiles(directory, ["xml"] as String[], true)
-		if (name) {
+		if(name) {
 			files.each {
 				String fileName = it.name.toLowerCase()
 				String lookUpName = name.toLowerCase()
@@ -42,25 +42,28 @@ class RestoreDomain extends AbstractTomcatCommand {
 				int similarity = coreFileName.chars.toList().intersect(lookUpName.chars.toList()).size()
 				int nameMatchValue
 
-				if (coreFileName == lookUpName) {
+				if(coreFileName == lookUpName) {
 					recognizedFile = it
 					nameMatchValue = 1000;
 					recognizedFileMatchValue = nameMatchValue
-				} else if (coreFileName.startsWith(lookUpName)) {
+				}
+				else if(coreFileName.startsWith(lookUpName)) {
 					nameMatchValue = lookUpName.length() * 3;
-					if (lookUpName.length() * 3 > recognizedFileMatchValue) {
+					if(lookUpName.length() * 3 > recognizedFileMatchValue) {
 						recognizedFile = it
 						recognizedFileMatchValue = nameMatchValue
 					}
-				} else if (coreFileName.contains(lookUpName)) {
+				}
+				else if(coreFileName.contains(lookUpName)) {
 					nameMatchValue = lookUpName.length() * 2
-					if (lookUpName.length() * 2 > recognizedFileMatchValue) {
+					if(lookUpName.length() * 2 > recognizedFileMatchValue) {
 						recognizedFile = it
 						recognizedFileMatchValue = nameMatchValue
 					}
-				} else {
+				}
+				else {
 					nameMatchValue = similarity
-					if (similarity > recognizedFileMatchValue) {
+					if(similarity > recognizedFileMatchValue) {
 						recognizedFile = it
 						recognizedFileMatchValue = similarity
 					}
@@ -69,31 +72,33 @@ class RestoreDomain extends AbstractTomcatCommand {
 				int matchValue = 0;
 				int recognizedChars = 0;
 				coreFileName.split("[-_\\.]").each {
-					if (it.charAt(0) == name.charAt(recognizedChars)) {
+					if(it.charAt(0) == name.charAt(recognizedChars)) {
 						recognizedChars++;
 						matchValue += it.length()
 					}
 				}
-				if (matchValue > recognizedFileMatchValue && recognizedChars == lookUpName.length()) {
+				if(matchValue > recognizedFileMatchValue && recognizedChars == lookUpName.length()) {
 					recognizedFile = it
 					recognizedFileMatchValue = matchValue
-				} else {
+				}
+				else {
 					matchValue = 0
 				}
 
-				if (nameMatchValue > 0 || matchValue > 0) {
+				if(nameMatchValue > 0 || matchValue > 0) {
 					int finalMatchValue = nameMatchValue > matchValue ? nameMatchValue : matchValue
 					results[finalMatchValue] = results[finalMatchValue] ? "${results[finalMatchValue]}, ${fileName}" : fileName
 				}
 			}
 		}
-		if (recognizedFile == null) {
+		if(recognizedFile == null) {
 			println "No saved configuration found for name: " + (name ? name : "(empty name)")
 			println "There are these saved configurations to restore:"
 			files.each {
 				println it.name
 			}
-		} else {
+		}
+		else {
 			println "Found these matching files:\n---------------------------------------------------"
 			results.each {
 				k, v -> println "${k} pts. : ${v}"

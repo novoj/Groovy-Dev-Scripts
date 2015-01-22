@@ -25,6 +25,7 @@ class InfrastructureScriptInvoker {
 		registerCommand(RunTomcat.class)
 		registerCommand(TableNameCaseChange.class)
 		registerCommand(RegExCopy.class)
+		registerCommand(CorruptedZipChecker.class)
 	}
 
 	private static void registerCommand(Class command) {
@@ -94,8 +95,9 @@ class InfrastructureScriptInvoker {
 					println "Avalable command properties: " + wrapper.propertyDescriptors.each { it + ", " }
 				}
                 try {
-				    command.execute()
-                } catch (Exception ex) {
+					command.execute()
+                } catch (Throwable ex) {
+					println "Error!"
                     ex.printStackTrace()
                 }
 			} else {
